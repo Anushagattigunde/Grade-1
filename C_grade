@@ -1,0 +1,24 @@
+#include <studio.h>
+int main()
+{
+int number;
+printf("enter the number")
+Scanf("%d",&number);
+Switch(number)
+{
+Case 1:
+Printf("food item- pasta\nprice-rs 179");
+Break;
+Case 2:
+Printf("food item- burger\nprice-rs 129");
+Break;
+Case 3;
+Printf("food item- sandwich\nprice-rs 149);
+Break;
+Case 4;
+Printf("food item- pizza\nprice-rs 239");
+Break;
+Default :
+Printf("no order");
+}
+}
